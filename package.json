@@ -1,0 +1,14 @@
+{
+  "name": "tx-admin-fetcher",
+  "version": "1.0.0",
+  "description": "A Node.js application to serve the txAdmin playersDB.json file.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Roby",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
