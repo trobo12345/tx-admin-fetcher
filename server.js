@@ -21,6 +21,6 @@ app.get('/playersdb', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '127.0.0.1', ()  => {
   console.log(`tx-admin-fetcher is running on port ${PORT}.`);
 });
