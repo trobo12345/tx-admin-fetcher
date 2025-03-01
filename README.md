@@ -10,8 +10,8 @@
   - `server.js`: An Express.js-based server that reads the `playersDB.json` file and serves its content via an HTTP endpoint.
   - `package.json`: Contains the Node.js project configuration and dependencies.
 - **FiveM Resource**
-  - `fivem/fxmanifest.lua`: The FiveM resource configuration file.
-  - `fivem/server.lua`: An example server-side Lua script that retrieves the playersDB data from the tx-admin-fetcher endpoint using `PerformHttpRequest`.
+  - `fivem/txadmin_reader/xmanifest.lua`: The FiveM resource configuration file.
+  - `fivem/txadmin_reader/server.lua`: An example server-side Lua script that retrieves the playersDB data from the tx-admin-fetcher endpoint using `PerformHttpRequest`.
 
 ## Requirements
 
